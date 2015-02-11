@@ -1,0 +1,15 @@
+<template name="home">
+  <div class="row">
+    <div class="column small-12">
+    <ul>
+      {{#each items }}
+        <li>{{name}}</li>
+      {{/each}}
+    </ul>
+    <form action="">
+      <input type="text" name="item_name" value="" placeholder="Item name">
+      <button type="submit" class="button">Button</button>
+    </form>
+    </div>
+  </div>
+</template>
